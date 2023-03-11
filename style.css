@@ -5,8 +5,19 @@
 }
 
 :root {
-  --text-color: white;
+  --text-color: black;
+  --bg-url: url(./img/bg.mobilelight.jpg);
   --bg-url: url(./img/bg.mobile.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.1);
+  --surface-color-hover: rgba(0, 0, 0, 0.5);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(./sun.svg);
+}
+
+.light {
+  --text-color: white;
+  --bg-url: url(./img/bg.mobilelight.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.5);
@@ -14,15 +25,7 @@
   --switch-bg-url: url(./moon.svg);
 }
 
-.light {
-  --text-color: black;
-  --bg-url: url(./img/bg.mobileligth.jpg);
-  --stroke-color: rgba(0, 0, 0, 0.5);
-  --surface-color: rgba(0, 0, 0, 0.1);
-  --surface-color-hover: rgba(0, 0, 0, 0.5);
-  --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./sun.svg);
-}
+
 
 body {
   font-family: "Oswald", sans-serif;
@@ -204,9 +207,8 @@ footer {
     #11ff00,
     #fffb00,
     #00f2ff,
-    #ff00f2, 
+    #ff00f2,
     #11ff00,
-
     #fffb00,
     #00f2ff,
     #ff00f2
